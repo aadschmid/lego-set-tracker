@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Puzzle" max_length="40" name="x_1234_2_puzzle_tr_puzzle" type="collection">
+        <element label="Length" max_length="15" name="length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="125" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Width" max_length="15" name="width" type="decimal"/>
+    </element>
+</database>
